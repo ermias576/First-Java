@@ -1,9 +1,14 @@
+import java.util.Date;
+
 /**
  * Hello
  */
 public class Hello {
 
     public static void main(String[] args) {
-        System.out.println("Hello Java");
+        int age = 24;
+        Date today = new Date();
+        System.out.println(today);
+        System.out.println(age);
     }
 }
